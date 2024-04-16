@@ -1,0 +1,43 @@
+/* Your button CSS file */
+
+.btn-medium {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #10d9be;
+  background-color: #00000000;
+  border: solid;
+  border-color: #10d9be;
+}
+
+.button:hover {background-color: #028b59}
+
+.button:active {
+  transition: 0.1s;
+  transform: translateY(2px);
+}
+
+.button-cont {
+  margin-top: 15px;
+}
+
+/*
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #04AA6D;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+*/

@@ -1,0 +1,85 @@
+/*Importing fonts*/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Raleway:wght@300;400;500;700");
+
+/* Importing all components file */
+@import url("components/button.css");
+@import url("components/card.css");
+@import url("components/container.css");
+/* General for fonts and colors */
+
+body {
+  margin: 75px;
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  }
+
+  h1 {
+  color: rgb(0, 255, 191);
+  font-size: large;
+  line-height: normal;
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  }
+
+  h2, h3 {
+  color: rgb(0, 255, 191);
+  font-size: small;
+  line-height: normal;
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  }
+
+  p {
+  color: rgb(0, 255, 191);
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .text-center {
+    text-align: center;
+  }
+
+  #myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+
+  video {
+    filter: brightness(50%);
+  }
+
+/*
+  @media (min-aspect-ratio: 16/9) {
+    video {
+      width: 100%;
+      height: auto;
+    }
+  }
+  @media (max-aspect-ratio: 16/9) {
+    video {
+      width: auto;
+      height: 100%;
+    }
+  }
+
+  @media (max-width: 768px) {
+    video {
+    display: none;
+  }
+  #main{
+    background-color: rgba(0, 0, 0, 0);
+    background-size: cover;
+  }
+}
+*/
