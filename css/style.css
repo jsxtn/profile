@@ -58,6 +58,11 @@ body {
   video {
     filter: brightness(50%);
   }
+
+  .ico {
+      filter: brightness(100%);
+  }
+
 /*
   @media (min-aspect-ratio: 16/9) {
     video {

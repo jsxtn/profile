@@ -8,6 +8,10 @@
   justify-content: center;
 }
 
+.card a {
+  margin: 10px;
+}
+
 .card-img {
 display: flex;
 align-content: center;
