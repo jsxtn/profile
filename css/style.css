@@ -18,7 +18,7 @@ body {
   }
 
   h1 {
-  color: rgb(0, 255, 191);
+  color: #00ffbf;
   font-size: large;
   line-height: normal;
   font-family: "Press Start 2P", system-ui;
@@ -58,7 +58,6 @@ body {
   video {
     filter: brightness(50%);
   }
-
 /*
   @media (min-aspect-ratio: 16/9) {
     video {
